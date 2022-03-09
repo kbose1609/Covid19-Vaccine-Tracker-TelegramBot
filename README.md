@@ -1,4 +1,4 @@
-# cowin-bot
+# Cowin-bot
 A telegram bot which notifies the user of an available vaccine slot booking using Co-Win API.
 
 We will be using the Co-win public API’s provided by the government to track vaccines without the need to login into the Co-Win website portal or the Aarogya Setu App every time to check for a vaccine slot booking.
