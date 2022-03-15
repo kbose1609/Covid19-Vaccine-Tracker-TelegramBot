@@ -32,3 +32,7 @@ This way the user can have access to the vaccine slot booking from their compute
 # Steps to run:
 Go to the path in the terminal where the file is saved and run it by :
 
+```
+python3 main.py
+```
+
