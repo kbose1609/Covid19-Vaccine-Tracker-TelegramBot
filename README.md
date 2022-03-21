@@ -1,4 +1,4 @@
-# Cowin-Bot
+# Covid-19 Vaccine Tracker (Telegram Bot)
 A telegram bot which notifies the user of an available vaccine slot booking using Co-Win API.
 
 We will be using the Co-win public API’s provided by the government to track vaccines without the need to login into the Co-Win website portal or the Aarogya Setu App every time to check for a vaccine slot booking.
@@ -25,7 +25,7 @@ This way the user can have access to the vaccine slot booking from their compute
 
 
 
-**API used : aarogya setu api to display vaccination centres**
+**API used : aarogya setu api to display vaccination centres (ONLY FOR INDIA)**
 
 **API : https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=110001&date=31-03-2021**
 
@@ -35,4 +35,13 @@ Go to the path in the terminal where the file is saved and run it by :
 ```
 python3 main.py
 ```
+
+# Telegram Bot
+To add the bot to your Telegram app search for:
+
+`https://t.me/covid19_VaccineTracker_INDIA_bot` in your Web Browser
+
+or 
+
+ `covid19_VaccineTracker_INDIA_bot` in the search for username field in the Telegram App
 
