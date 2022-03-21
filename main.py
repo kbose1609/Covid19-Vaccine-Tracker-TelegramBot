@@ -11,7 +11,6 @@ print('Bot is starting')
 
 def start_command(update, context):
 	update.message.reply_text('Hi, welcome to the Covid Vaccine tracker Bot.')
-	update.message.reply_text(' To find a vaccination centre for today use the command "/vaccine " in the chat box.')
 	update.message.reply_text(' To custom search for a vaccination slot type (pincode:dd-mm-yyyy) for eg 400055:25-10-2021')
 
 def vaccine_command(update, context):
@@ -48,7 +47,6 @@ def main():
 	dp = updater.dispatcher
 
 	dp.add_handler(CommandHandler("start", start_command))
-	dp.add_handler(CommandHandler("help", help_command))
 	dp.add_handler(CommandHandler("vaccine", vaccine_command))
 	dp.add_handler(MessageHandler(Filters.text, handle_message))
 	dp.add_error_handler(error)

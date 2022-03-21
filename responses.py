@@ -15,7 +15,7 @@ def sample_responses(input_text):
 		browser_header = {'User-Agent': 'Mozilla/5.0 (Windows NT 6.1; WOW64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.76 Safari/537.36'}
 		print(url)
 		response = requests.get(url, headers=browser_header)
-		print(response)
+		print(response) 
 		json_data = response.json()
 		final_text = ''
 		if len(json_data['sessions'])==0:
