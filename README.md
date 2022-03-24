@@ -27,9 +27,11 @@ This way the user can have access to the vaccine slot booking from their compute
 
 **API used : aarogya setu api to display vaccination centres (ONLY FOR INDIA)**
 
-**API : https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode=110001&date=31-03-2021**
+**API : https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode={pin}&date={date}**
 
 # Steps to run:
+**To run the bot on a local machine**
+
 Go to the path in the terminal where the file is saved and run it by :
 
 ```
