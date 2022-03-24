@@ -45,3 +45,5 @@ or
 
  `covid19_VaccineTracker_INDIA_bot` in the search bar for username field in the Telegram App
 
+**Curently my bot is hosted on Heroku, if it doesn't respond to your command give it some minutes as the bot might be dormant.**
+
