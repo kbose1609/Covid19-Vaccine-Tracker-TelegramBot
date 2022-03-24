@@ -43,5 +43,5 @@ To add the bot to your Telegram app search for:
 
 or 
 
- `covid19_VaccineTracker_INDIA_bot` in the search for username field in the Telegram App
+ `covid19_VaccineTracker_INDIA_bot` in the search bar for username field in the Telegram App
 
