@@ -25,7 +25,7 @@ This way the user can have access to the vaccine slot booking from their compute
 
 
 
-**API used : aarogya setu api to display vaccination centres (ONLY FOR INDIA)**
+**API used : Aarogya Setu API to display vaccination centres (ONLY FOR INDIA)**
 
 **API : https://cdn-api.co-vin.in/api/v2/appointment/sessions/public/findByPin?pincode={pin}&date={date}**
 
